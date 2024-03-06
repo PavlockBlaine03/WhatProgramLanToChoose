@@ -3,6 +3,12 @@
     padding: 20;
     background-color: cadetblue;
 }
+hr{
+    
+    border-color: black;
+    border-width: 3px;
+    
+}
 .title{
     background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -28,20 +34,20 @@ a:hover {
 }
 
 #sidenote {
-    text-align: left;
+    text-align: center;
     font-size: 15px;
     font-style: italic;
+    border: 7px solid black;
+    margin: 20px auto;
+    padding: 5px;
+    max-width: 1000px;
 }
 header {
-    background-color:cadetblue;
     padding: 10px;
     text-align: center;
 }
 
-#container {
-    width: 210px;
-    border: 4px black;
-}
+
 nav {
     display: flex;
     justify-content: center;
@@ -57,5 +63,16 @@ nav a {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    list-style-position: inside;
+}
+#list{
+   padding: 1px;
+
+ list-style-position: inside;
+    display: block
+}
+#note {
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    margin: 3px;
 }
